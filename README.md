@@ -1,2 +1,2 @@
-# gpu-kernels
+# kernels
 Benchmarked CUDA and Triton kernels.
