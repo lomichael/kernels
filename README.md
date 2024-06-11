@@ -1,6 +1,8 @@
 # kernels
 Benchmarked CUDA and Triton kernels.
 
+![chiprace.png](/chiprace.png)
+
 ## Directory Structure
 - `src/cuda`: CUDA kernel implementations
 - `src/triton`: Triton kernel implementations
