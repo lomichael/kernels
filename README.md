@@ -1,7 +1,7 @@
 # kernels
 Benchmarked CUDA and Triton kernels.
 
-![chiprace.png](/chiprace.png)
+![chiprace.jpeg](/chiprace.jpeg)
 
 ## Directory Structure
 - `src/cuda`: CUDA kernel implementations
@@ -48,4 +48,22 @@ Benchmarked CUDA and Triton kernels.
 	- Flipping
 	- Rotation
 	- Normalization
-	- Color jittering
+
+## Visualizing Benchmark Results
+The benchmark results are visualized using Matplotlib and Seaborn. The following plots are available:
+- Execution Time
+- FLOPS
+- Memory Bandwidth
+
+## How to Run
+To reproduce the benchmarks and visualizations, follow these steps:
+
+1. Run the benchmarks:
+```sh
+./run_benchmarks.sh
+```
+
+2. Visualize the results:
+```sh
+python visualize_benchmarks.py
+```
